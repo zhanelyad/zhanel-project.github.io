@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="headerr">
+            <div class="header_list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="family.html">Family</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_logo">
+                <img src="img/zhanellogo.png" >
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div id="dropdownMenu" class="dropdown-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div class="slider">
+        <div class="slider-content">
+            <div class="slide active">
+                <img src="img/hheee.png" alt="Image 1" class="slide-img1">
+                <div class="text-content">
+                    <h1>Hello! I am Zhanel :)</h1>
+                    <p>I am a computer science enthusiast passionate about creating innovative projects through coding.  I love exploring new technologies, and I'm currently honing my skills in web development and programming. 
+                        <br><span id="yellow">Welcome to my site, where I share some information about myself.</span></p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/littlezhanel.PNG" alt="Image 2" class="slide-img2">
+                <div class="text-content">
+                    <h1>Main information<h1>
+                    <p>I was born in 17th October in 2006. I am from small village in Atyrau calle Sarayshyk. I study in SDU University, majoring in computer science.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="nav-dots">
+            <span class="dot active" onclick="showSlide(0)"></span>
+            <span class="dot" onclick="showSlide(1)"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="menu">
+        <div class="menu-container">
+            <div class="menu-family">
+                <img src="img/image 3fam.png" alt="Family">
+                <div class="menu-family-button">
+                    <a href="family.html">
+                        <img src="img/material-symbols-light_family-homehome.png" alt="Family Icon"> Family
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-edu">
+                <img src="img/image 4edu.png" alt="Education">
+                <div class="menu-edu-button">
+                    <a href="education.html">
+                        <img src="img/tdesign_educationedu.png" alt="Education Icon"> Education
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-hobby">
+                <img src="img/image 5hob.png" alt="Hobby">
+                <div class="menu-hobby-button">
+                    <a href="hobby.html">
+                        <img src="img/material-symbols_interestshobby.png" alt="Hobby Icon"> Hobby
+                    </a>
+                </div>
+            </div>
+
+            <div class="menu-contact">
+                <img src="img/image 6con.png" alt="Contact">
+                <div class="menu-contact-button">
+                    <a href="contact.html">
+                        <img src="img/mdi_phonecontact.png" alt="Contact Icon"> Contact
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="decor">
+            <p>To learn more <br>about me choose <br>these options</p>
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+        </div>
+    </div>
+
+    
+</body>
+</html>

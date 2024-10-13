@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="headerr">
+            <div class="header_list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="family.html">Family</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_logo">
+                <img src="img/zhanellogo.png" >
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div id="dropdownMenu" class="dropdown-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="8(777)-5656-0077" required>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <div class="social-media">
+            <a href="https://wa.link/p2uvyp" target="_blank">
+                <img src="img/2111774.png" alt="WhatsApp" class="wh-icon">
+            </a>
+
+            <a href="https://t.me/janelyad" target="_blank">
+                <img src="img/telega.png" alt="Telegram" class="tg-icon">
+            </a>
+            <a href="https://www.instagram.com/dyusseyeva/profilecard/?igsh=MXl5NWtuY3Zic2xv" target="_blank">
+                <img src="img/1161953_instagram_icon.png" alt="Instagram" class="wh-icon">
+            </a>
+        </div>
+        
+    </div>
+
+</body>
+</html>

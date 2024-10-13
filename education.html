@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="education.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="headerr">
+            <div class="header_list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="family.html">Family</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header_logo">
+                <img src="img/zhanellogo.png" >
+            </div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <div id="dropdownMenu" class="dropdown-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+
+    <div class="header-edu">
+        <h1>education</h1>
+    </div>
+    <div class="container">
+        <div class="timeline">
+            <button id="btn1" class="active" onclick="changeContent('2012-2019')">2012-2019</button>
+            <button id="btn2" onclick="changeContent('2019-2023')">2019-2023</button>
+            <button id="btn3" onclick="changeContent('2023-present')">2023-present</button>
+        </div>
+        <div class="content">
+            <div class="image">
+                <img id="schoolImage" src="img/school1.png" alt="School Image">
+            </div>
+            <div class="text">
+                <h2 id="schoolName">Қ.Қарашаұлы атындағы орта мектебі</h2>
+                <p id="schoolLocation">Атырау облысы, Махамбет<br>ауданы, Сарайшық селосы</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <div class="ach">
+        <div class="ach-text">
+            <h2>acedemic achievements</h2>
+        </div>
+    </div>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Achievement</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>2022</td>
+                <td>Орыс тілі пәнінен Олимпиада</td>
+                <td>2-ші орын Республика бойынша</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Лингвистикалық Олимпида</td>
+                <td>2-ші орын облыс бойынша</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Орыс тілі пәнінен Олимпида</td>
+                <td>2-ші орын облыс бойынша</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Физика пәнінен Олимпиада</td>
+                <td>1-ші орын облыс бойынша</td>
+            </tr>        
+        </table>
+    </div>
+</body>
+</html>
